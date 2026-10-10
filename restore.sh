@@ -25,7 +25,7 @@ file="${files[$((choice - 1))]}"
 filename="${file##*/}"
 echo ""
 echo "1-Restore file"
-echo "2- Permenantely delete file" 
+echo "2- Permanently delete file" 
 echo "3- Go back"
 read -r -p "Choose an option:" option
 
